@@ -19,6 +19,7 @@ To run the application, use the following command:
 ```
 java -jar target/account-service.jar
 ```
+> Make Sure that user-service and transaction-service are up and running as the account-service communicates with both of them.
 
 The application will start and will be accessible at http://localhost:8080.
 
