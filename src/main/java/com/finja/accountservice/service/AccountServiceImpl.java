@@ -62,7 +62,11 @@ public class AccountServiceImpl implements AccountService{
             }
 
             return AccountMapper.toAccountDto(account);
-        }catch (Exception exception){
+        }
+        catch(AccountServiceException accountServiceException){
+            throw accountServiceException;
+        }
+        catch (Exception exception){
            throw new AccountServiceException(ErrorCode.EXTERNAL_ERROR);
         }
 
@@ -100,7 +104,11 @@ public class AccountServiceImpl implements AccountService{
                 throw new AccountServiceException(ErrorCode.ACCOUNT_NOT_FOUND);
             }
             return userAccountInfo;
-        }catch (Exception exception){
+        }
+        catch(AccountServiceException accountServiceException){
+            throw accountServiceException;
+        }
+        catch (Exception exception){
             throw new AccountServiceException(ErrorCode.EXTERNAL_ERROR);
         }
     }
