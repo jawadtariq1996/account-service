@@ -23,7 +23,10 @@ java -jar target/account-service.jar
 
 The application will start and will be accessible at http://localhost:8080.
 
-For more details on how to use these endpoints, please refer to the API documentation.
+For more details on how to use these endpoints, please refer to the swagger documentation at following link.
+http://localhost:8080/swagger-ui/index.html
+
+Please get the value of customerId from the user-service data.sql script as the user is created using the script.
 
 ## Contributing
 Contributions are welcome! Please feel free to submit a pull request or open an issue if you encounter any problems or have suggestions for improvement.
