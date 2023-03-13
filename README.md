@@ -24,8 +24,7 @@ java -jar target/account-service.jar
 ## Endpoints
 The application will start and will be accessible at http://localhost:8080.
 
-For more details on how to use these endpoints, please refer to the following [postman collection]
-(https://drive.google.com/file/d/1nKWM39c_7-seJdG6VLNUtSoZzQIlO_KY/view?usp=share_link)
+For more details on how to use these endpoints, please refer to the following [postman collection](https://drive.google.com/file/d/1nKWM39c_7-seJdG6VLNUtSoZzQIlO_KY/view?usp=share_link)
 
 Please get the value of customerId from the user-service data.sql script as the user is created using the script.
 
