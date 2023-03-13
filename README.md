@@ -21,6 +21,7 @@ java -jar target/account-service.jar
 ```
 > Make Sure that user-service and transaction-service are up and running as the account-service communicates with both of them.
 
+## Endpoints
 The application will start and will be accessible at http://localhost:8080.
 
 For more details on how to use these endpoints, please refer to the swagger documentation at following link.
