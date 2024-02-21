@@ -33,3 +33,6 @@ Contributions are welcome! Please feel free to submit a pull request or open an 
 
 ## License
 This project is licensed under the MIT License. See the LICENSE file for details.
+
+## Test Reverting a Commit:
+  I'm just going to do a dummy commit to test reveting a PR.
