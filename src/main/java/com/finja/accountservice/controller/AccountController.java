@@ -33,4 +33,8 @@ public class AccountController {
         UserAccountInfo userAccountInfo = accountService.getAccountsInfo(UUID.fromString(customerId), UUID.fromString(accountId));
         return ResponseEntity.ok(userAccountInfo);
     }
+
+    private void doNothing(){
+        System.out.println("This method does nothing and is just for testing.");
+    }
 }
